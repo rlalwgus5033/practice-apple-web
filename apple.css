@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Sans+KR:wght@100;300;400;900&family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif ;
+}
+
+/* 상단바 */
+.status-bar{
+position: fixed;
+width: 100vw;
+display: flex;
+justify-content: center;
+color: white;
+background-color: black;
+opacity: 0.8;
+z-index: 9999;
+top:0;
+}
+
+.status-bar__column {
+    margin: 15px 25px;
+    font-weight: lighter;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+/* BIG img */
+.wide-image__title {
+    position: relative;
+    z-index: 1;
+}
+
+.biginfo-small__title {
+   justify-content: space-between;
+    color: rgb(135, 206, 235);
+}
+
+
+
+.first-biginfo__title {
+position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+ top:50px;
+}
+.smartphone-fourty-pro {
+    width: 98vw;
+    height: 100vh;
+    background-image: url(../screenshots/fourty-pro.jpeg);
+    /* background-img local file */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+
+.second-biginfo__title {
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    top:30px;
+}
+.smartphone__more {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../screenshots/bigger.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+
+
+.third-biginfo__title{
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    top: 15px;
+}
+.smartphone__powerful{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../screenshots/power.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+
+/* small img */
+
+.whole-small-img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-image__title {
+    padding: 10px;
+    width: 47vw;
+    min-height: 47vw;
+    /* vh는 화면 비율이 다른 것으로 봤을때 길어질 수 있음 */
+    position: relative;
+    justify-content: center;
+    margin-left: 7px;
+}
+
+.inner {
+ height: 100%;
+}   
+
+
+.smallinfo__title {
+    top:3vw;
+    position: absolute;  
+    width:100%;
+   text-align: center;
+   color: white;
+   z-index: 999;
+}
+
+
+
+
+.smartphone__watch {
+    background-image: url(../screenshots/watch.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.smartphone__macbook {
+    background-image: url(../screenshots/macbook.jpeg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+.smartphone__black-unity {
+    background-image: url(../screenshots/black-unity.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.smartphone__personality {
+    background-image: url(../screenshots/personality.jpeg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.smartphone__vday {
+    background-image: url(../screenshots/vday.jpeg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.smartphone__mac-mini {
+    background-image: url(../screenshots/mac-mini.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* footer */
+.gray-box {
+   background-color: #f5f5f7;
+   width: 100vw;
+}
+
+
+.long-notice {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-weight: 300;
+    margin: 60px;
+    padding: 45px 0;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+}
+
+.empty-box {
+width: 80%;
+display: flex;
+flex-direction: row;
+}
+
+
+.seperate-info {
+width: 100vw;
+}
